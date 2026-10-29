@@ -322,7 +322,7 @@
 
                     <div class="col-12 col-md-6">
                       <label for="correo" class="form-label">Correo institucional</label>
-                      <input type="email" class="form-control" id="correo" name="correo" placeholder="usuario@espe.edu.ec" required pattern="[^@\s]+@espe\.edu\.ec">
+                      <input type="email" class="form-control" id="correo" name="correo" placeholder="usuario@espe.edu.ec" required pattern="[a-zA-Z0-9._%+-]+@espe\.edu\.ec">
                       <div class="invalid-feedback">Usa un correo con dominio @espe.edu.ec.</div>
                     </div>
 
@@ -348,6 +348,25 @@
                       <label for="archivo" class="form-label">Archivo adjunto (PDF, JPG o PNG, máx. 2 MB)</label>
                       <input type="file" class="form-control" id="archivo" name="archivo" accept=".pdf,.jpg,.jpeg,.png" required>
                       <div class="invalid-feedback">Adjunta un archivo válido de máximo 2 MB.</div>
+                    </div>
+
+                    <div class="col-12">
+                      <p>Selecciona tu categoría:</p>
+                      <input type="radio" id="estudiante"
+                            name="categoria" value="estudiante">
+                      <label for="estudiante">Estudiante</label>
+
+                      <br>
+
+                      <input type="radio" id="invitado"
+                            name="categoria" value="invitado">
+                      <label for="invitado">Invitado</label>
+
+                      <br>
+
+                      <input type="radio" id="organizador"
+                            name="categoria" value="organizador">
+                      <label for="organizador">Organizador</label>
                     </div>
 
                     <div class="col-12 text-center">
