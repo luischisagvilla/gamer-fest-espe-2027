@@ -14,7 +14,7 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
               <a class="navbar-brand d-flex align-items-center" href="#">
-                  <img src="imagenes/logo.jpg" alt="Logo Gamer Fest" width="50" height="50" class="me-2">
+                  <img src="imagenes/logo.jpg" alt="Logo Gamer Fest" width="50" height="50" class="me-2 rounded-circle">
                   Gamer Fest ESPE 2027
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,22 +24,22 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="Inicio">Inicio</a>
+                      <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Categorías">Categorías</a>
+                      <a class="nav-link" href="#categorias">Categorías</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Premios">Premios</a>
+                      <a class="nav-link" href="#premios">Premios</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Auspiciantes">Auspiciantes</a>
+                      <a class="nav-link" href="#auspiciantes">Auspiciantes</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Ubicación">Ubicación</a>
+                      <a class="nav-link" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="inscripcion">Inscripción</a>
+                      <a class="nav-link" href="#inscripcion">Inscripción</a>
                     </li>
                   </ul>
               </div>
@@ -50,7 +50,7 @@
     <main>
       <!-- ===== Información de la página ===== -->
       <section id="inicio" class="py-5">
-        <div class="container">
+        <div class="container" id="inicio">
           <div class="row align-items-center g-4">
             <!--Columna de la información-->
             <div class="col-12 col-lg-6">
@@ -108,12 +108,12 @@
           <h2 class="text-center fw-bold mb-4 text-white">Categorías</h2>
           <div class="row g-4">
 
-            <!--Categoría Individual-->
+            <!--Categoría Supervivencia-->
             <div class="col-12 col-lg-3">
               <article class="card h-100">
-                <img src="imagenes/battle_royale.jpg" class="card-img-top img-fluid" alt="Categoría Battle Royale">
+                <img src="imagenes/battle_royale.jpg" class="card-img-top img-fluid" alt="Categoría Supervivencia">
                 <div class="card-body">
-                  <h3 class="h5 card-title">Battle Royale</h3>
+                  <h3 class="h5 card-title">Free Fire</h3>
                   <p class="small text-secondary text-uppercase mb-2">Individual</p>
                   <p class="card-text">Sobrevive hasta ser el último jugador en pie.</p>
                 </div>
@@ -135,7 +135,7 @@
             <!--Categoría de Eliminación-->
             <div class="col-12 col-lg-3">
               <article class="card h-100">
-                <img src="imagenes/footbol.jpg" class="card-img-top img-fluid" alt="Categoría Fútbol virtual">
+                <img src="imagenes/footbol.jpg" class="card-img-top img-fluid" alt="Categoría Deportes">
                 <div class="card-body">
                   <h3 class="h5 card-title">EA SPORTS FC 26</h3>
                   <p class="small text-secondary text-uppercase mb-2">1 vs 1</p>
@@ -164,83 +164,132 @@
       <section id="premios" class="py-5 bg-light">
         <div class="container">
           <h2 class="text-center fw-bold mb-2">Premios</h2>
-          <p class="text-center text-secondary mb-4">Premios propuestos con fines demostrativos. Condición general: participar y completar la inscripción.</p>
-          <div class="row g-4">
+            <p class="text-center text-secondary mb-4">
+              Premios propuestos con fines demostrativos.
+              Condición general: participar y completar la inscripción.
+            </p>
 
-            <div class="col-12 col-lg-6">
-              <div class="table-responsive">
-                <table class="table table-bordered text-center bg-white mb-0">
-                  <thead class="table-light"><tr><th colspan="3">Battle Royale</th></tr></thead>
-                  <tbody>
-                    <tr class="fw-semibold"><td>1.º lugar</td><td>2.º lugar</td><td>3.º lugar</td></tr>
-                    <tr><td>[Premio]</td><td>[Premio]</td><td>[Premio]</td></tr>
-                  </tbody>
-                </table>
+            <div class="row g-4">
+
+              <!-- Premios Free Fire -->
+              <div class="col-12 col-lg-6">
+                  <div class="table-responsive">
+                      <table class="table table-bordered text-center bg-white mb-0">
+                          <thead class="table-light">
+                              <tr><th colspan="3">Free Fire</th></tr>
+                          </thead>
+                          <tbody>
+                              <tr class="fw-semibold">
+                                  <td>1.º lugar</td>
+                                  <td>2.º lugar</td>
+                                  <td>3.º lugar</td>
+                              </tr>
+                              <tr>
+                                  <td>$100 y trofeo</td>
+                                  <td>$50 y medalla</td>
+                                  <td>$25 y medalla</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
               </div>
-            </div>
 
-            <div class="col-12 col-lg-6">
-              <div class="table-responsive">
-                <table class="table table-bordered text-center bg-white mb-0">
-                  <thead class="table-light"><tr><th colspan="3">MOBA</th></tr></thead>
-                  <tbody>
-                    <tr class="fw-semibold"><td>1.º lugar</td><td>2.º lugar</td><td>3.º lugar</td></tr>
-                    <tr><td>[Premio]</td><td>[Premio]</td><td>[Premio]</td></tr>
-                  </tbody>
-                </table>
+              <!-- Premios League of Legends -->
+              <div class="col-12 col-lg-6">
+                  <div class="table-responsive">
+                      <table class="table table-bordered text-center bg-white mb-0">
+                          <thead class="table-light">
+                              <tr><th colspan="3">League of Legends</th></tr>
+                          </thead>
+                          <tbody>
+                              <tr class="fw-semibold">
+                                  <td>1.º lugar</td>
+                                  <td>2.º lugar</td>
+                                  <td>3.º lugar</td>
+                              </tr>
+                              <tr>
+                                  <td>$250 para el equipo y trofeo</td>
+                                  <td>$150 para el equipo y medallas</td>
+                                  <td>$75 para el equipo y medallas</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
               </div>
-            </div>
 
-            <div class="col-12 col-lg-6">
-              <div class="table-responsive">
-                <table class="table table-bordered text-center bg-white mb-0">
-                  <thead class="table-light"><tr><th colspan="3">Fútbol virtual</th></tr></thead>
-                  <tbody>
-                    <tr class="fw-semibold"><td>1.º lugar</td><td>2.º lugar</td><td>3.º lugar</td></tr>
-                    <tr><td>[Premio]</td><td>[Premio]</td><td>[Premio]</td></tr>
-                  </tbody>
-                </table>
+              <!-- Premios EA SPORTS FC 26 -->
+              <div class="col-12 col-lg-6">
+                  <div class="table-responsive">
+                      <table class="table table-bordered text-center bg-white mb-0">
+                          <thead class="table-light">
+                              <tr><th colspan="3">EA SPORTS FC 26</th></tr>
+                          </thead>
+                          <tbody>
+                              <tr class="fw-semibold">
+                                  <td>1.º lugar</td>
+                                  <td>2.º lugar</td>
+                                  <td>3.º lugar</td>
+                              </tr>
+                              <tr>
+                                  <td>$100 y control gamer</td>
+                                  <td>$50 y audífonos</td>
+                                  <td>$25 y tarjeta de regalo</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
               </div>
-            </div>
 
-            <div class="col-12 col-lg-6">
-              <div class="table-responsive">
-                <table class="table table-bordered text-center bg-white mb-0">
-                  <thead class="table-light"><tr><th colspan="3">Carreras</th></tr></thead>
-                  <tbody>
-                    <tr class="fw-semibold"><td>1.º lugar</td><td>2.º lugar</td><td>3.º lugar</td></tr>
-                    <tr><td>[Premio]</td><td>[Premio]</td><td>[Premio]</td></tr>
-                  </tbody>
-                </table>
+              <!-- Premios Forza Motorsport -->
+              <div class="col-12 col-lg-6">
+                  <div class="table-responsive">
+                      <table class="table table-bordered text-center bg-white mb-0">
+                          <thead class="table-light">
+                              <tr><th colspan="3">Forza Motorsport</th></tr>
+                          </thead>
+                          <tbody>
+                              <tr class="fw-semibold">
+                                  <td>1.º lugar</td>
+                                  <td>2.º lugar</td>
+                                  <td>3.º lugar</td>
+                              </tr>
+                              <tr>
+                                  <td>$100 y volante gamer</td>
+                                  <td>$50 y audífonos</td>
+                                  <td>$25 y tarjeta de regalo</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
               </div>
-            </div>
 
+            </div>
           </div>
-        </div>
       </section>
+
 
       <!-- Sección de Auspiciantes -->
       <section id="auspiciantes" class="py-5 bg-light border-top">
         <div class="container">
           <h2 class="text-center fw-bold mb-2">Auspiciantes</h2>
-          <p class="text-center text-secondary mb-4">Auspiciantes simulados con fines académicos.</p>
+          <p class="text-center text-secondary mb-4">Presentamos a los siguientes auspiciantes del programa.</p>
           <div class="row g-4 text-center">
 
             <!--Auspiciante 1-->
             <div class="col-12 col-lg-4">
-              <img src="imagenes/saludsa.jpg" class="img-fluid rounded bg-white p-3 mb-2" width="96" alt="Logo del auspiciante 1 (simulado)">
+              <img src="imagenes/saludsa.jpg" class="img-fluid rounded-circle bg-white p-3 mb-2" width="200" alt="Logo del auspiciante 1 (simulado)">
               <p class="fw-semibold mb-0">Saludsa</p>
             </div>
             
             <!--Auspiciante 2-->
             <div class="col-12 col-lg-4">
-              <img src="imagenes/netlife.jpg" class="img-fluid rounded bg-white p-3 mb-2" width="96" alt="Logo del auspiciante 2 (simulado)">
+              <img src="imagenes/netlife.jpg" class="img-fluid rounded-circle bg-white p-3 mb-2" width="200" alt="Logo del auspiciante 2 (simulado)">
               <p class="fw-semibold mb-0">Netlife</p>
             </div>
 
             <!--Auspiciante 3-->
             <div class="col-12 col-lg-4">
-              <img src="imagenes/devsu.jpg" class="img-fluid rounded bg-white p-3 mb-2" width="96" alt="Logo del auspiciante 3 (simulado)">
+              <img src="imagenes/devsu.jpg" class="img-fluid rounded-circle bg-white p-3 mb-2" width="200" alt="Logo del auspiciante 3 (simulado)">
               <p class="fw-semibold mb-0">Devsu</p>
             </div>
 
